@@ -1,0 +1,4 @@
+## 4. Evaluation & Analysis
+The model is evaluated using **Cross-Entropy Loss** during training and **BLEU (Bilingual Evaluation Understudy)** score for the final testing.
+* **Loss:** Measures how confident the model is in its predictions.
+* **BLEU Score:** A standard metric that compares the machine's output to human reference translations based on n-gram overlap. A BLEU score > 30 is generally considered understandable/good for this dataset.
