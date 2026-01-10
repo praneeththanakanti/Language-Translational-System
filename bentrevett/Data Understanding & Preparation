@@ -1,0 +1,8 @@
+## 2. Data Understanding & Preparation
+We are utilizing the **Multi30k dataset**, a standard benchmark for machine translation tasks.
+* **Source Language:** German (de)
+* **Target Language:** English (en)
+* **Preprocessing Steps:**
+    1.  **Tokenization:** Breaking sentences into individual words using spaCy.
+    2.  **Vocabulary Build:** Creating a one-hot encoding index for tokens appearing at least 2 times.
+    3.  **Batching:** Using `BucketIterator` to minimize padding by grouping sentences of similar lengths.
