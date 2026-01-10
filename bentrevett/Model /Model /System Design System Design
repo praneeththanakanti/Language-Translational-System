@@ -1,0 +1,10 @@
+## 3. Model / System Design
+We are implementing the **Transformer Architecture** (Vaswani et al., 2017). Unlike RNNs, Transformers process the entire sequence simultaneously, allowing for parallelization and better handling of long-distance dependencies.
+
+
+
+**Key Components:**
+* **Encoder:** Processes the source sentence and generates contextualized representations.
+* **Decoder:** Generates the target sentence word-by-word, attending to the Encoder's output.
+* **Multi-Head Attention:** Allows the model to focus on different parts of the sentence simultaneously (e.g., one head focuses on grammar, another on semantic meaning).
+* **Positional Encodings:** Injects information about the order of words, as the Transformer has no inherent sense of sequence.
