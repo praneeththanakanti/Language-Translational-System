@@ -1,0 +1,14 @@
+# Neural Machine Translation (NMT) using Transformer Architecture
+
+## 1. Problem Definition & Objective
+**Objective:** To develop a deep learning-based Neural Machine Translation system capable of translating text between two languages (German to English) with high semantic accuracy.
+
+**Selected Project Track:** Natural Language Processing (NLP) / Deep Learning
+
+**Problem Statement:**
+Language barriers remain a significant obstacle in global communication, commerce, and education. Traditional Statistical Machine Translation (SMT) systems often lack the ability to capture long-range dependencies and context, resulting in literal but grammatically incorrect translations. This project aims to solve this by implementing a **Transformer-based NMT model**, which utilizes self-attention mechanisms to understand context better than recurrent models (RNNs/LSTMs).
+
+**Real-world Relevance:**
+* **Globalization:** Enabling real-time communication in international business.
+* **Accessibility:** Making educational content available in low-resource languages.
+* **Crisis Response:** aiding aid workers in communicating with locals during foreign disasters.
