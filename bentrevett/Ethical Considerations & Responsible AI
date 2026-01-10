@@ -1,0 +1,14 @@
+## 5. Ethical Considerations & Responsible AI
+While powerful, NMT systems carry inherent risks that must be acknowledged:
+* **Bias Amplification:** The Multi30k dataset may contain gender or cultural biases present in the training text (e.g., assuming "doctors" are male). The model will learn and potentially amplify these biases.
+* **Hallucinations:** The model may generate fluent-sounding but factually incorrect translations, which can be dangerous in medical or legal contexts.
+* **Mitigation Strategy:** In a production environment, we would implement a "Human-in-the-loop" review system and bias-detection filters before deploying this model for critical tasks.
+
+## 6. Conclusion & Future Scope
+**Conclusion:**
+We successfully implemented a Transformer-based NMT model that achieves a low validation loss and a respectable BLEU score. The model demonstrates the superiority of attention mechanisms over traditional RNNs in handling sentence context.
+
+**Future Scope:**
+1.  **Multilingual Support:** Extending the model to support 3+ languages simultaneously.
+2.  **Domain Adaptation:** Fine-tuning the model on medical or legal datasets for specialized translation.
+3.  **Model Compression:** Quantizing the model to run on mobile devices for offline translation.
